@@ -23,6 +23,7 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  background-color: #65d381;
 }
 #nav {
   padding: 30px;

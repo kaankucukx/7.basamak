@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <HelloWorld msg="7"/>
+    <!--<HelloWorld msg="7"/>-->
+    <img src="../assets/loading.gif" alt="7. Basamak Yapım Aşamasında ;)">
   </div>
 </template>
 
