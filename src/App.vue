@@ -4,6 +4,7 @@
       <!--<router-link to="/">Home</router-link> |-->
       <!--<router-link to="/about">About</router-link>-->
     <!--</div>-->
+    <div class="overlay"></div>
     <router-view/>
   </div>
 </template>
@@ -24,6 +25,14 @@
   align-items: center;
   justify-content: center;
   background-color: #65d381;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 #nav {
   padding: 30px;
